@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Montserrat Regular */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../common/assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Montserrat Medium */
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../common/assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Montserrat SemiBold */
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../common/assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Montserrat Bold */
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../common/assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Montserrat Bold Italic */
+@font-face {
+  font-family: "Montserrat-BoldItalic";
+  src: url("../common/assets/fonts/Montserrat-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Montserrat Black */
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../common/assets/fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
